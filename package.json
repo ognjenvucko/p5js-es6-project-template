@@ -1,5 +1,5 @@
 {
-  "name": "p5-template",
+  "name": "p5js-es6-template",
   "version": "1.0.0",
   "description": "Template for all p5js & es6 projects",
   "main": "index.js",
