@@ -1,0 +1,14 @@
+{
+  "name": "p5-template",
+  "version": "1.0.0",
+  "description": "Template for all p5 projects",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Ognjen Vucetic <ognjenvucko@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
+}
