@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Template for all p5js & es6 projects",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "gulp": "gulp"
+  },
   "author": "Ognjen Vucetic <ognjenvucko@gmail.com>",
   "license": "ISC",
   "devDependencies": {
