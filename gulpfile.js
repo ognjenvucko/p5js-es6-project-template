@@ -15,6 +15,10 @@ gulp.task('copy-libs', () => {
   return gulp.src('src/lib/*.js').pipe(gulp.dest('dist/lib'))
 });
 
+gulp.task('copy-html', () => {
+  return gulp.src('src/**/*.html').pipe(gulp.dest('dist/'))
+});
+
 gulp.task('es6', () => {
   return gulp.src('src/**/*.js').pipe(babel({
     "presets": ['es2015'],
@@ -26,5 +30,5 @@ gulp.task('es6', () => {
 
 
 gulp.task('default', (callback) => {
-  runSequence('clean-dist', ['copy-libs', 'es6'], callback);
+  runSequence('clean-dist', ['copy-libs', 'copy-html', 'es6'], callback);
 });
