@@ -32,3 +32,5 @@ gulp.task('es6', () => {
 gulp.task('default', (callback) => {
   runSequence('clean-dist', ['copy-libs', 'copy-html', 'es6'], callback);
 });
+
+gulp.watch('src/app/**/*.js', ['es6']);
