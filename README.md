@@ -16,3 +16,16 @@ Once you clone repository using run:
 * Use RequireJS ```define``` and ```require``` to define and include modules in your application
 * Run ```gulp``` command to transpile ES6 and copy resources to ***dist*** directory
 * Open ```dist/index.html``` in browser of choice
+
+### Examples
+
+Example projects are located under `examples` directory.
+
+To build example project `cd` into project folder and run:
+
+```
+$ cd examples/tank
+$ npm install
+$ gulp
+```
+To run the example code open ***index.html*** from `dist` folder in your browser.
