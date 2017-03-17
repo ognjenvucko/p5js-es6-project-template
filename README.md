@@ -1,16 +1,16 @@
-#ES6 project template
+# ES6 project template
 
-###About
+### About
 This project template aims to make p5js projects easy to create and manage.
 
 It comes with Babel and RequireJS support. Uses Gulp tasks to prepare distribution assets.
 
-###Setup
-Once you clone repository using Git/Mercurial run:
+### Setup
+Once you clone repository using run:
 
 ```npm install```
 
-###Basic usage
+### Basic usage
 * Place your JS code under ```src/app``` directory
 * ```main.js``` is entry point of your application
 * Use RequireJS ```define``` and ```require``` to define and include modules in your application
