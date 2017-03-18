@@ -9,7 +9,7 @@ define(() => {
       this.vel = direction.setMag(BULLET_SPEED);
     }
     getStartPos() {
-      return this.vel.copy().setMag(35);
+      return this.vel.copy().setMag(30);
     }
     update() {
       this.pos.add(this.vel);

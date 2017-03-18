@@ -29,6 +29,7 @@ define(['p5', 'app/tank', 'app/bullet'], (p5, Tank, Bullet) => {
   });
 
   function spawnBullet(p) {
+    tank.beginRecoil();
     bullets.push(new Bullet(p, tank.getDirection()));
   }
 });
