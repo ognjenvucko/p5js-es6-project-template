@@ -29,3 +29,5 @@ $ npm install
 $ gulp
 ```
 To run the example code open ***index.html*** from `dist` folder in your browser.
+
+Check out [Live demo code](https://ognjenvucko.github.io/p5js-es6-project-template/examples/tank/src/index.html)
